@@ -1,0 +1,23 @@
+{
+  "name": "mkit-armcc",
+  "version": "0.0.0",
+  "inherits": {
+    "nordic-nrf51822-16k-armcc": "*"
+  },
+  "description": "Official mbed build target for the mkit nrf51822 16KB chip.",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "keywords": [
+    "mbed-official",
+    "armcc"
+  ],
+  "similarTo": [
+    "arm",
+    "mkit"
+  ],
+  "config": {}
+}
