@@ -1,6 +1,6 @@
 {
   "name": "mkit-armcc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "inherits": {
     "nordic-nrf51822-16k-armcc": "*"
   },
