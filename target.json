@@ -19,5 +19,19 @@
     "arm",
     "mkit"
   ],
-  "config": {}
+  "config": {},
+  "scripts": {
+    "debug": [
+      "valinor",
+      "--target",
+      "mkit",
+      "$program"
+    ],
+    "test": [
+      "mbed_test_wrapper",
+      "--target",
+      "mkit",
+      "$program"
+    ]
+  }
 }
