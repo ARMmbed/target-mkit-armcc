@@ -1,2 +1,2 @@
-## yotta Target Description using GCC to compile for Nordic nRF51822 16KB device.
+## yotta Target Description using ARMCC to compile for Nordic nRF51822 16KB device.
 
