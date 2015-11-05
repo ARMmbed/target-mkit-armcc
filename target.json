@@ -19,7 +19,6 @@
     "arm",
     "mkit"
   ],
-  "private": true,
   "config": {
     "hardware": {
       "pins": {
