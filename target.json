@@ -51,11 +51,6 @@
         "I2C_SDA1": "p13",
         "I2C_SCL1": "p15"
       }
-    },
-    "cmsis": {
-      "nvic": {
-        "has_custom_vtor": true
-      }
     }
   },
   "scripts": {
