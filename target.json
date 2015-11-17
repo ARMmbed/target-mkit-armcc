@@ -5,6 +5,11 @@
     "nordic-nrf51822-16k-armcc": "*"
   },
   "description": "Official mbed build target for the mkit nrf51822 16KB chip.",
+  "homepage": "https://github.com/ARMmbed/target-mkit-armcc",
+  "repository": {
+    "url": "git@github.com:ARMmbed/target-mkit-armcc.git",
+    "type": "git"
+  },
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
