@@ -2,7 +2,7 @@
   "name": "mkit-armcc",
   "version": "0.0.8",
   "inherits": {
-    "nordic-nrf51822-16k-armcc": "*"
+    "nordic-nrf51822-armcc": "*"
   },
   "description": "Official mbed build target for the mkit nrf51822 16KB chip.",
   "homepage": "https://github.com/ARMmbed/target-mkit-armcc",
@@ -25,6 +25,14 @@
     "mkit"
   ],
   "config": {
+    "nrf51822": {
+        "ram_size": "16K"
+    },
+    "image": {
+      "heap": {
+        "warning_threshold": 1024
+      }
+    },
     "hardware": {
       "pins": {
         "LED1": "p18",
